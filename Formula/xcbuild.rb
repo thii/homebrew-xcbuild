@@ -1,7 +1,6 @@
 class Xcbuild < Formula
   desc "Xcode-compatible build tool"
   homepage "https://github.com/facebook/xcbuild"
-  url "https://github.com/facebook/xcbuild.git", :revision => "32b9fbeb69bfa2682bd0351ec2f14548aaedd554"
   head "https://github.com/facebook/xcbuild.git", :shallow => false
 
   depends_on "ninja"
